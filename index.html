@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>明净导航页</title>
+    <link rel="stylesheet" href="CSS/CSS.css">
+    <link rel="shortcut icon" href="./Images/Planet.ico">
+    <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <div class="loading">
+        <div id="svg">
+            <svg viewBox="0 0 200 100" id="svgcircle">
+                <circle cx="100" cy="50" r="10" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none" id="circle" >
+            </svg>
+        </div>
+        <p class="view">This is a Test</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="firstbody">
+        <div class="menu">
+            <nav>
+                <span class="logo">
+                    <img src="./Images/Planet.png" height="44" width="44">
+                </span>
+                <a href="#1">首页</a>
+                <a href="#2">404</a>
+                <a href="#3">404</a>
+            </nav>
+        </div>
+        <div class="ftext">
+            <p class="shorttext">We Pursue Safety and Purity</p>
+            <p class="longtext">Thank You for Your Support</p>
+        </div>
+        <span><a href="#content" class="downing"><img src="./Icons/ArrowDown.png" ></a></span>
+    </div>
+    <div class="square" id="content">
+
+        <h3>Open Source Items (Commercially Available)</h3>
+        <div class="container">
+
+            <div class="box">
+                <a href="https://www.github.com" class="img">
+                    <img src="./Icons/github.png">
+                </a>
+                <p>Github</p>
+            </div>
+            <div class="box">
+                <a href="https://www.pexels.com/" class="img">
+                    <img src="./Icons/pexels.png">
+                </a>
+                <p>pexels</p>
+            </div>
+            <div class="box">
+                <a href="https://remixicon.com/" class="img">
+                    <img src="./Icons/remix.png">
+                </a>
+                <p>remix</p>
+            </div>
+            <div class="box">
+                <a href="https://www.hellofont.cn" class="img">
+                    <img src="./Icons/hellofont.png">
+                </a>
+                <p>hellofont</p>
+            </div>
+                
+                
+            
+        </div>
+    </div>
+
+    <div class="square">
+
+        <h3>HelloWorld</h3>
+        <div class="container">
+
+            <div class="box">
+                <a href="#" class="img">
+                    <img src="./Icons/none.png">
+                </a>
+                <p>None</p>
+            </div>
+            <div class="box">
+                <a href="#" class="img">
+                    <img src="./Icons/none.png">
+                </a>
+                <p>None</p>
+            </div>
+            <div class="box">
+                <a href="#" class="img">
+                    <img src="./Icons/none.png">
+                </a>
+                <p>None</p>
+            </div>
+            <div class="box">
+                <a href="#" class="img">
+                    <img src="./Icons/none.png">
+                </a>
+                <p>None</p>
+            </div>
+                
+                
+            
+        </div>
+    </div>
+
+
+    <!-- <script>
+        document.onreadystatechange = function () {
+            if (document.readyState === "complete") {
+            // 执行代码
+        }
+    }
+    </script> -->
+
+
+    <script>
+        $(window).on('load',function(){
+            $('.loading').animate({
+                opacity:0
+            },500);
+            setTimeout(function(){
+                $('.loading').remove();
+        },500);
+        })
+    </script>
+
+</body>
+</html>
