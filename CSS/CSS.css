@@ -471,3 +471,54 @@ body {
         padding-right: 5px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shorttext {
+    margin-top: 20vh;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 1000;
+    margin-left: 45px;
+}
+
+
+.longtext {
+    margin-top: 10px;
+    margin-left: 45px;
+    color: rgb(10, 10, 10);
+    font-weight: 800;
+}
